@@ -13,7 +13,7 @@ public class Score implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@EmbeddedId
-	private ScorePk id;
+	private ScorePk id = new ScorePk();
 	
 	private Double value;
 	
